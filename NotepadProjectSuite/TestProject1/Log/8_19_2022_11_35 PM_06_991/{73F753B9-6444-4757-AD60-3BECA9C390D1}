@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row0">
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="StartNotepad [KeywordTests - StartNotepad]"/>
+				<Prp name="end time" type="D" value="44792.9827408218"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="start time" type="D" value="44792.9827202778"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{65942C9E-5AC4-43AB-8266-D8533974679A}"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="CloseNotepad [KeywordTests - CloseNotepad]"/>
+				<Prp name="end time" type="D" value="44792.9827746644"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="start time" type="D" value="44792.9827466204"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{3C2C3411-00A3-4970-90EC-C2315F489872}"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="EnterTextNotepad [KeywordTests - EnterTextNotepad]"/>
+				<Prp name="end time" type="D" value="44792.9827465278"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="start time" type="D" value="44792.9827409028"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{C28F5F74-95B3-410C-B8E3-F7B3E7D4CE71}"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>
